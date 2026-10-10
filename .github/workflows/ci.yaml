@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm' # Automatically caches node_modules to speed up your pipeline
+    
 
       - name: Install Backend dependencies
         working-directory: ./Backend
